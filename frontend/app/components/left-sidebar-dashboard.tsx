@@ -624,7 +624,7 @@ export function LeftSidebarDashboard() {
                                                 alt="Product image"
                                                 className="aspect-square w-full rounded-md object-cover"
                                                 height="300"
-                                                src="/product/product-1.jpg"
+                                                src="/products/product-1.jpg"
                                                 width="300"
                                             />
                                             <div className="grid grid-cols-3 gap-2">
@@ -633,7 +633,7 @@ export function LeftSidebarDashboard() {
                                                         alt="Product image"
                                                         className="aspect-square w-full rounded-md object-cover"
                                                         height="84"
-                                                        src="/product/product-1.jpg"
+                                                        src="/products/product-1.jpg"
                                                         width="84"
                                                     />
                                                 </button>
@@ -642,7 +642,7 @@ export function LeftSidebarDashboard() {
                                                         alt="Product image"
                                                         className="aspect-square w-full rounded-md object-cover"
                                                         height="84"
-                                                        src="/product/product-1.jpg"
+                                                        src="/products/product-1.jpg"
                                                         width="84"
                                                     />
                                                 </button>
