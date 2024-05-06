@@ -1,55 +1,55 @@
 import { Link } from '@remix-run/react';
 import { Badge } from '~/components/ui/badge';
 import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    BreadcrumbList,
+    BreadcrumbPage,
+    BreadcrumbSeparator,
 } from '~/components/ui/breadcrumb';
 import { Button } from '~/components/ui/button';
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
 } from '~/components/ui/card';
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
 } from '~/components/ui/dropdown-menu';
 import { Input } from '~/components/ui/input';
 import { Label } from '~/components/ui/label';
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
 } from '~/components/ui/select';
 import { Sheet, SheetContent, SheetTrigger } from '~/components/ui/sheet';
 import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableHeader,
+    TableRow,
 } from '~/components/ui/table';
 import { Textarea } from '~/components/ui/textarea';
 import { ToggleGroup, ToggleGroupItem } from '~/components/ui/toggle-group';
 import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
 } from '~/components/ui/tooltip';
 
 export function LeftSidebarDashboard() {
@@ -624,7 +624,7 @@ export function LeftSidebarDashboard() {
                                                 alt="Product image"
                                                 className="aspect-square w-full rounded-md object-cover"
                                                 height="300"
-                                                src="/placeholder.svg"
+                                                src="/product/product-1.jpg"
                                                 width="300"
                                             />
                                             <div className="grid grid-cols-3 gap-2">
@@ -633,7 +633,7 @@ export function LeftSidebarDashboard() {
                                                         alt="Product image"
                                                         className="aspect-square w-full rounded-md object-cover"
                                                         height="84"
-                                                        src="/placeholder.svg"
+                                                        src="/product/product-1.jpg"
                                                         width="84"
                                                     />
                                                 </button>
@@ -642,7 +642,7 @@ export function LeftSidebarDashboard() {
                                                         alt="Product image"
                                                         className="aspect-square w-full rounded-md object-cover"
                                                         height="84"
-                                                        src="/placeholder.svg"
+                                                        src="/product/product-1.jpg"
                                                         width="84"
                                                     />
                                                 </button>
